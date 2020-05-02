@@ -1,0 +1,207 @@
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('과자',2,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('음료수',3,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('과일',6,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('빵',11,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('커피',7,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('라면',8,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('피자',12,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('햄버거',15,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('짜장면',11,0,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('짬뽕',7,0,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('뮤지컬',2,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('콘서트',0,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('연극',6,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('전시',11,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('행사',7,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('클래식',8,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('오페라',12,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('무용',15,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('스포츠',11,0,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('국악',7,0,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('외국어',2,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('공예',3,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('뷰티',6,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('요리',11,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('미술',7,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('래프팅',8,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('수상레저',12,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('이사',15,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('청소',11,5,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('꽃',7,5,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('인테리어용품',2,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('세차용품',0,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('램프',6,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('화장지',11,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('컵',7,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('냄비',8,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('프라이팬',12,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('주전자',15,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('다림판',11,5,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('빨래판',7,5,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('다이어리',2,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('앨범',3,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('강아지',6,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('고양이',11,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('토끼',7,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('고슴도치',8,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('피아노',12,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('현악기',15,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('관악기',11,10,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('기타',7,10,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('자전거',2,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('스케이트보드',0,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('러닝머신',6,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('줄넘기',11,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('훌라후프',7,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('텐트',8,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('해먹',12,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('캠핑의자',15,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('골프백',11,10,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('핑거보드',7,10,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('원피스',2,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('블라우스',3,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('레깅스',6,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('슬립',11,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('속치마',7,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('속바지',8,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('힐',12,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('반지',15,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('팔찌',11,15,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('펜던트',7,15,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('니트',2,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('카디건',0,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('티셔츠',6,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('남방',11,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('점퍼',7,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('재킷',8,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('코트',12,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('청바지',15,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('바지',11,15,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('조끼',7,15,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('스냅백',2,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('베레모',3,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('야구모자',6,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('귀마개',11,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('스카프',7,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('장갑',8,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('벨트',12,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('양말',15,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('토트백',11,20,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('숄더백',7,20,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('커튼',2,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('블라인드',0,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('쿠션',6,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('방석',11,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('부츠',7,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('운동화',8,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('실내화',12,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('구두',15,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('시계',11,20,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('백팩',7,20,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('의자',2,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('책상',3,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('행거',6,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('수납장',11,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('선반',7,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('공간박스',8,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('코너장',12,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('벽지',15,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('바닥재',11,25,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('베개',7,25,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('공유기',2,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('랜카드',0,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('블랙박스',6,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('침대',11,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('매트리스',7,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('서랍장',8,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('소파',12,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('테이블',15,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('장식장',11,25,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('식탁',7,25,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('마우스',2,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('키보드',3,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('복합기',6,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('프린터',11,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('SSD',7,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('USB메모리',8,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('게임기',12,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('CPU',15,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('RAM',11,30,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('그래픽카드',7,30,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('프로젝터',2,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('영상플레이어',0,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('홈시어터',6,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('이어폰',11,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('헤드폰',7,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('블루투스셋',8,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('면도기',12,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('드라이어',15,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('매직기',11,30,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('피부케어기기',7,30,1);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('DSLR',2,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('세탁기',3,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('청소기',6,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('다리미',11,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('도어록',7,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('냉장고',8,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('가스레인지',12,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('전기밥솥',15,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('커피메이커',11,35,0);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('TV',7,35,0);
+
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('휴대폰',2,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('에어컨',0,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('선풍기',6,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('냉풍기',11,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('제습기',7,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('가습기',8,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('공기정화기',12,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('전기장판',15,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('전기히터',11,35,1);
+insert into gi_category(cat_name, cat_incre, info_age, info_gender)values('온풍기',7,35,1);
+commit;
+
+create table GI_CATEGORY_TEST(
+  category_name     varchar2(20)    not null,
+  category_count    Number          default 0
+);
+
+insert into gi_category_test(category_name, category_count)
+values('clothing', 25);
+insert into gi_category_test(category_name, category_count)
+values('shoes', 10);
+insert into gi_category_test(category_name, category_count)
+values('cosmetics', 18);
+insert into gi_category_test(category_name, category_count)
+values('computer', 12);
+insert into gi_category_test(category_name, category_count)
+values('smartphone', 21);
+insert into gi_category_test(category_name, category_count)
+values('bicycle', 3);
+insert into gi_category_test(category_name, category_count)
+values('figure', 13);
+insert into gi_category_test(category_name, category_count)
+values('food', 16);
+insert into gi_category_test(category_name, category_count)
+values('game', 11);
+insert into gi_category_test(category_name, category_count)
+values('coffee', 22);
+
+commit;
+
+
+

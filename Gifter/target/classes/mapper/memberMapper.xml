@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.swdo.gift.dao.MemberMapper">
+	
+	<!--회원 가입-->
+	<insert id="memberInsert" parameterType="member">
+		insert into 
+			gi_member(
+			member_id	
+			,member_pw
+			,member_email
+		)
+		 values(
+		 	#{member_id}
+		 	,#{member_pw}
+		 	,#{member_email}		 	
+		 )		
+	</insert>
+	
+	<!--로그인  -->
+	<select id="memberLogin" parameterType="member" resultType="int">
+		select
+			count(*)
+		from
+			gi_member
+		where
+			member_id = #{member_id}
+			and
+			member_pw = #{member_pw}
+			and
+			member_key = 'Y'
+	</select>
+	
+	<!--회원 인증키(난수 생성)-->
+	<update id="GetKey" parameterType="map">
+		update 
+			gi_member
+		set
+			member_key = #{param2}
+		where
+			member_id = #{param1}
+	</update>
+	
+	<!--회원 인증키 Y로 변경  -->
+	<update id="alter_userKey">
+		update 
+			gi_member
+		set
+			member_key = 'Y'
+		where
+			member_id = #{param1}
+		and
+			member_key = #{param2}
+	</update>
+	
+	<!--소셜로 로그인한 사람을 회원가입 시킴  -->
+	<insert id="socialMemberInsert" parameterType="member">
+		insert into 
+			gi_member(
+			member_id	
+			,member_pw
+			,member_email
+			,member_key
+		)
+		 values(
+		 	#{member_id}
+		 	,#{member_pw}
+		 	,#{member_email}
+		 	,#{member_key}		 	
+		 )		
+	</insert>
+	
+	<!--소셜 로그인으로 가입한 회원 찾기  -->
+	<select id="socialMemberFind" parameterType="string" resultType="int">
+		select
+			count(*)
+		from
+			gi_member
+		where
+			member_email = #{member_email}
+	</select>
+	
+	<!--비회원 아이디 중복 체크  -->
+	<select id="nonMemberCheck" parameterType="string" resultType="int">
+		select
+			count(*)
+		from
+			gi_member
+		where
+			member_id = #{member_id}
+	</select>
+
+	<!--이메일을 입력해 아이디 찾기  -->
+	<select id="memberIdFind" parameterType="string" resultType="member">
+		select 
+			member_id
+		from
+			gi_member
+		where
+			member_email = #{member_email}
+	</select>
+
+	<!--비밀번호 찾기 전 이메일 인증 여부 확인   -->
+	<select id="emailAuthCheck" parameterType="member" resultType="int">
+		select
+			count(*)
+		from
+			gi_member
+		where
+			member_id = #{member_id}
+			and
+			member_email = #{member_email}
+			and
+			member_key = 'Y'
+	</select>
+	
+	 <!--아이디로 회원 정보 찾기  -->
+	 <select id="memberInfoById" parameterType="string" resultType="member">
+	 	select 
+	 		member_id
+	 		,member_pw
+	 		,member_email
+	 	from
+	 		gi_member
+	 	where
+	 		member_id = #{member_id}
+	 </select>
+	
+	
+	<!-- 회원 임시 비밀번호-->
+	<update id="tempPassword" parameterType="Map">
+		update 
+			gi_member 
+		set 
+			member_pw = #{param3} 
+		where 
+			member_id = #{param1} 
+		and 
+			member_email = #{param2}
+	</update>
+	
+	<!--비밀번호 수정  -->
+	<update id="pwUpdate" parameterType="member">
+		update
+			gi_member
+		set
+			member_pw = #{member_pw}
+		where
+			member_id = #{member_id}
+			and
+			member_email = #{member_email}
+	</update>
+	
+	<!--회원 탈퇴  -->
+	<delete id="memberDeletion" parameterType="member">
+		delete from
+			gi_member
+		where
+			member_id = #{member_id}
+			and
+			member_pw = #{member_pw}
+	</delete>
+	
+</mapper>
+		
